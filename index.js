@@ -28,10 +28,10 @@ title.addEventListener("click", () => {
     } else {
         title.classList.add("nightlife");
         title.innerHTML = "NIGHTLIFE";
-        video.setAttribute("src", "CITY.mp4");
+        video.setAttribute("src", "city.mp4");
     }
 })
 
 window.addEventListener("load", () => {
     preloader.style.zIndex = "-2";
-})
+});
